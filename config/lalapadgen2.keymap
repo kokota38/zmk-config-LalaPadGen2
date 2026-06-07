@@ -90,52 +90,52 @@
         DEFAULT_LAYER {
             display-name = "Default";
             bindings = <
-&lt 3 Q             &kp W            &kp E         &kp R      &kp T                                 &kp Y           &kp U           &lt 4 I          &kp O       &kp P
-&mt LEFT_SHIFT A    &kp S            &kp D         &kp F      &kp G                                 &kp H           &kp J           &kp K            &kp L       &kp ENTER
-&mt2 LEFT_SHIFT Z   &kp X            &kp C         &kp V      &kp B                                 &kp N           &kp M           &kp COMMA        &kp PERIOD  &kp MINUS
-&mt LCTRL LEFT_ALT  &kp LWIN         &kp LEFT_ALT  &mkp MB1   &lt 1 SPACE  &mkp MB2  &kp BACKSPACE  &kp ENTER       &lt 3 K_APP     &kp SLASH        &kp ESCAPE  &kp DELETE
-                    &kp PRINTSCREEN  &kp RIGHT     &kp DOWN   &kp LEFT     &kp UP    &mmv MOVE_UP   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB1
-&mkp LCLK           &mkp RCLK        &mkp MCLK                                                                                      &mkp LCLK        &mkp RCLK   &mkp MCLK
-&mkp MB4            &mkp MB5         &kp LG(TAB)   &kp LG(D)  &kp LCTRL                             &mkp MB4        &mkp MB5        &kp LG(TAB)      &kp LG(D)   &kp LCTRL
+&lt 3 Q            &kp W            &kp E         &kp R      &kp T                                         &kp Y      &kp U           &lt 4 I      &kp O       &kp P
+&kp A              &kp S            &kp D         &kp F      &kp G                                         &kp H      &kp J           &kp K        &kp L       &kp ENTER
+&mt2 LEFT_SHIFT Z  &kp X            &kp C         &kp V      &kp B                                         &kp N      &kp M           &kp COMMA    &kp PERIOD  &kp MINUS
+&mt LCTRL TAB      &kp LWIN         &kp LEFT_ALT  &mkp MB1   &lt 1 SPACE  &lt 2 LEFT_SHIFT  &kp BACKSPACE  &kp ENTER  &lt 3 K_APP     &kp SLASH    &kp ESCAPE  &kp DELETE
+                   &kp PRINTSCREEN  &kp RIGHT     &kp DOWN   &kp LEFT     &kp UP            &msc SCRL_UP   &mkp MB4   &msc SCRL_DOWN  &mkp MB5     &mkp MB3
+&mkp LCLK          &mkp RCLK        &mkp MCLK                                                                                         &mkp LCLK    &mkp RCLK   &mkp MCLK
+&mkp MB4           &mkp MB5         &kp LG(TAB)   &kp LG(D)  &kp LCTRL                                     &mkp MB4   &mkp MB5        &kp LG(TAB)  &kp LG(D)   &kp LCTRL
             >;
         };
 
         SECONDARY_LAYER {
             display-name = "secondary_layer";
             bindings = <
-&kp LA(LC(DELETE))  &kp LG(LEFT_ARROW)  &kp UP_ARROW         &kp LG(RIGHT_ARROW)  &kp SINGLE_QUOTE                  &kp KP_NUMLOCK    &kp KP_NUMBER_7    &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS
-&kp LC(TAB)         &kp LEFT_ARROW      &kp DOWN_ARROW       &kp RIGHT_ARROW      &kp COLON                         &kp SLASH         &kp KP_NUMBER_4    &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS
-&trans              &kp LS(UP_ARROW)    &kp LA(DOWN_ARROW)   &kp UNDERSCORE       &kp SEMICOLON                     &kp EQUAL         &kp KP_NUMBER_1    &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ASTERISK
-&kp LS(LEFT_ARROW)  &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)  &trans               &trans            &trans  &kp F2  &trans            &trans             &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_DIVIDE
-                    &trans              &trans               &trans               &trans            &trans  &trans  &mkp MB4          &trans             &mkp MB5         &trans
-&trans              &trans              &trans                                                                                                           &trans           &trans           &trans
-&kp LC(LG(LEFT))    &kp LC(LG(RIGHT))   &trans               &trans               &trans                            &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans           &trans           &trans
+&kp LA(LC(DELETE))  &kp LG(LEFT_ARROW)  &kp UP_ARROW         &kp LG(RIGHT_ARROW)  &kp SINGLE_QUOTE                            &kp KP_NUMLOCK      &kp KP_NUMBER_7     &kp KP_NUMBER_8      &kp KP_NUMBER_9  &kp KP_PLUS
+&kp LC(TAB)         &kp LEFT_ARROW      &kp DOWN_ARROW       &kp RIGHT_ARROW      &kp COLON                                   &kp SLASH           &kp KP_NUMBER_4     &kp KP_NUMBER_5      &kp KP_NUMBER_6  &kp KP_MINUS
+&trans              &kp LS(UP_ARROW)    &kp LA(DOWN_ARROW)   &kp UNDERSCORE       &kp SEMICOLON                               &kp EQUAL           &kp KP_NUMBER_1     &kp KP_NUMBER_2      &kp KP_NUMBER_3  &kp KP_ASTERISK
+&kp LS(LEFT_ARROW)  &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)  &trans               &trans            &trans  &kp F2            &trans              &trans              &kp KP_NUMBER_0      &kp KP_DOT       &kp KP_DIVIDE
+                    &trans              &trans               &trans               &trans            &trans  &kp LS(UP_ARROW)  &kp LS(LEFT_ARROW)  &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)  &trans
+&trans              &trans              &trans                                                                                                                        &trans               &trans           &trans
+&kp LC(LG(LEFT))    &kp LC(LG(RIGHT))   &trans               &trans               &trans                                      &kp LC(LG(LEFT))    &kp LC(LG(RIGHT))   &trans               &trans           &trans
             >;
         };
 
         TERTIARY_LAYER {
             display-name = "tertiary_layer";
             bindings = <
-&trans  &trans  &trans  &trans  &trans                  &kp DOLLAR       &kp AMPS           &kp GRAVE         &kp AT_SIGN           &kp CARET
-&trans  &trans  &trans  &trans  &trans                  &kp UNDERSCORE   &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET
-&trans  &trans  &trans  &trans  &trans                  &kp EXCLAMATION  &kp PERCENT        &kp POUND         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans             &kp ASTERISK      &kp BACKSLASH         &trans
-        &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans             &trans            &trans
-&trans  &trans  &trans                                                                      &trans            &trans                &trans
-&trans  &trans  &trans  &trans  &trans                  &trans           &trans             &trans            &trans                &trans
+&trans  &trans  &trans  &trans  &trans                           &kp DOLLAR       &kp AMPS           &kp GRAVE         &kp AT_SIGN           &kp CARET
+&trans  &trans  &trans  &trans  &trans                           &kp UNDERSCORE   &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET
+&trans  &trans  &trans  &trans  &trans                           &kp EXCLAMATION  &kp PERCENT        &kp POUND         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans           &trans             &kp ASTERISK      &kp BACKSLASH         &trans
+        &trans  &trans  &trans  &trans  &trans  &kp C_VOLUME_UP  &kp K_PREVIOUS   &kp C_VOLUME_DOWN  &kp K_NEXT        &kp K_PP
+&trans  &trans  &trans                                                                               &trans            &trans                &trans
+&trans  &trans  &trans  &trans  &trans                           &trans           &trans             &trans            &trans                &trans
             >;
         };
 
         SYSTEM_LAYER {
             display-name = "system_layer";
             bindings = <
-&kp F1   &kp F2   &kp F3   &kp F4   &kp F5                   &out OUT_TOG                   &bt BT_SEL 0                   &bt BT_SEL 1                   &bt BT_SEL 2                   &bt BT_SEL 3
-&kp F6   &kp F7   &kp F8   &kp F9   &kp F10                  &sys_reset                     &bootloader                    &bt BT_CLR                     &bt BT_CLR_ALL                 &trans
-&kp F11  &kp F12  &kp F13  &kp F14  &kp F15                  &zip_dyn_scale ZDS_XY ZDS_INC  &zip_dyn_scale ZDS_XY ZDS_DEC  &zip_dyn_scale ZDS_SC ZDS_INC  &zip_dyn_scale ZDS_SC ZDS_DEC  &zip_dyn_scale ZDS_ALL ZDS_RST
-&trans   &trans   &trans   &trans   &trans   &trans  &trans  &trans                         &trans                         &trans                         &trans                         &trans
-         &trans   &trans   &trans   &trans   &trans  &trans  &trans                         &trans                         &trans                         &trans
-&trans   &trans   &trans                                                                                                   &trans                         &trans                         &trans
-&trans   &trans   &trans   &trans   &trans                   &trans                         &trans                         &trans                         &trans                         &trans
+&kp F1   &kp F2   &kp F3               &kp F4              &kp F5                                        &out OUT_TOG                   &bt BT_SEL 0                   &bt BT_SEL 1                   &bt BT_SEL 2                   &bt BT_SEL 3
+&kp F6   &kp F7   &kp F8               &kp F9              &kp F10                                       &sys_reset                     &bootloader                    &bt BT_CLR                     &bt BT_CLR_ALL                 &trans
+&kp F11  &kp F12  &kp F13              &kp F14             &kp F15                                       &zip_dyn_scale ZDS_XY ZDS_INC  &zip_dyn_scale ZDS_XY ZDS_DEC  &zip_dyn_scale ZDS_SC ZDS_INC  &zip_dyn_scale ZDS_SC ZDS_DEC  &zip_dyn_scale ZDS_ALL ZDS_RST
+&trans   &trans   &trans               &trans              &trans              &trans            &trans  &trans                         &trans                         &trans                         &trans                         &trans
+         &trans   &kp LS(RIGHT_ARROW)  &kp LS(DOWN_ARROW)  &kp LS(LEFT_ARROW)  &kp LS(UP_ARROW)  &trans  &trans                         &trans                         &trans                         &trans
+&trans   &trans   &trans                                                                                                                                               &trans                         &trans                         &trans
+&trans   &trans   &trans               &trans              &trans                                        &trans                         &trans                         &trans                         &trans                         &trans
             >;
         };
 
