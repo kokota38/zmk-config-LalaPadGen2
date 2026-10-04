@@ -90,13 +90,13 @@
         DEFAULT_LAYER {
             display-name = "Default";
             bindings = <
-&lt 3 Q            &kp W             &kp E            &kp R           &kp T                                        &kp Y           &kp U            &lt 4 I                &lt 2 O     &lt 1 P
-&kp A              &kp S             &kp D            &kp F           &kp G                                        &kp H           &kp J            &kp K                  &kp L       &kp ENTER
-&mt2 LEFT_SHIFT Z  &mt LEFT_SHIFT X  &kp C            &kp V           &kp B                                        &kp N           &kp M            &kp COMMA              &kp PERIOD  &kp MINUS
-&mt LCTRL TAB      &kp LWIN          &kp LEFT_ALT     &mkp MB1        &lt 1 SPACE     &mkp MB2      &kp BACKSPACE  &kp BACKSPACE   &mt K_APP ENTER  &mt RIGHT_SHIFT SLASH  &kp ESCAPE  &kp DELETE
-                   &kp PRINTSCREEN   &msc SCRL_RIGHT  &msc SCRL_DOWN  &msc SCRL_LEFT  &msc SCRL_UP  &mmv MOVE_UP   &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_RIGHT        &mkp MB1
-&mkp LCLK          &mkp RCLK         &mkp MCLK                                                                                                      &mkp LCLK              &mkp RCLK   &mkp MCLK
-&mkp MB4           &mkp MB5          &kp LG(TAB)      &kp LG(D)       &kp LCTRL                                    &mkp MB4        &mkp MB5         &kp LG(TAB)            &kp LG(D)   &kp LCTRL
+&lt 3 Q            &kp W             &kp E         &kp R          &kp T                                      &kp Y           &kp U            &lt 4 I                &lt 2 O     &lt 1 P
+&kp A              &kp S             &kp D         &kp F          &kp G                                      &kp H           &kp J            &kp K                  &kp L       &kp ENTER
+&mt2 LEFT_SHIFT Z  &mt LEFT_SHIFT X  &kp C         &kp V          &kp B                                      &kp N           &kp M            &kp COMMA              &kp PERIOD  &kp MINUS
+&mt LCTRL TAB      &kp LWIN          &kp LEFT_ALT  &mkp MB1       &lt 1 SPACE  &mkp MB2     &lt 2 BACKSPACE  &kp BACKSPACE   &mt K_APP ENTER  &mt RIGHT_SHIFT SLASH  &kp ESCAPE  &kp DELETE
+                   &kp PRINTSCREEN   &kp END       &kp PAGE_DOWN  &kp HOME     &kp PAGE_UP  &mmv MOVE_UP     &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_RIGHT        &mkp MB1
+&mkp LCLK          &mkp RCLK         &mkp MCLK                                                                                                &mkp LCLK              &mkp RCLK   &mkp MCLK
+&mkp MB4           &mkp MB5          &kp LG(TAB)   &kp LG(D)      &kp LCTRL                                  &mkp MB4        &mkp MB5         &kp LG(TAB)            &kp LG(D)   &kp LCTRL
             >;
         };
 
@@ -141,13 +141,13 @@
 
         mouse {
             bindings = <
-&kp F1   &kp F2   &kp F3   &kp F4   &kp F5                   &trans  &mkp MB4  &trans  &mkp MB5  &trans
-&kp F6   &kp F7   &kp F8   &kp F9   &kp F10                  &trans  &mkp MB1  &trans  &mkp MB2  &trans
-&kp F11  &kp F12  &kp F13  &kp F14  &kp F15                  &trans  &trans    &trans  &trans    &trans
-&trans   &trans   &trans   &trans   &trans   &trans  &trans  &trans  &trans    &trans  &trans    &trans
-         &trans   &trans   &trans   &trans   &trans  &trans  &trans  &trans    &trans  &trans
-&trans   &trans   &trans                                                       &trans  &trans    &trans
-&trans   &trans   &trans   &trans   &trans                   &trans  &trans    &trans  &trans    &trans
+&kp F1   &kp F2   &kp F3   &kp F4       &kp F5                         &trans  &mkp MB4  &trans  &mkp MB5  &trans
+&kp F6   &kp F7   &kp F8   &kp F9       &kp F10                        &trans  &mkp MB1  &trans  &mkp MB2  &trans
+&kp F11  &kp F12  &kp F13  &kp F14      &kp F15                        &trans  &trans    &trans  &trans    &trans
+&trans   &trans   &trans   &trans       &trans   &trans        &trans  &trans  &trans    &trans  &trans    &trans
+         &trans   &trans   &kp LC(END)  &trans   &kp LC(HOME)  &trans  &trans  &trans    &trans  &trans
+&trans   &trans   &trans                                                                 &trans  &trans    &trans
+&trans   &trans   &trans   &trans       &trans                         &trans  &trans    &trans  &trans    &trans
             >;
         };
     };
